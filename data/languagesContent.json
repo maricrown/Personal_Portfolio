@@ -1,0 +1,395 @@
+{
+    "en" : {
+        "navAboutMe" : "who am I?",
+        "navPortfolio" : "portfolio",
+        "navExperience" : "exp./edu",
+        "navContactMe" : "contact me",
+        "homeJobTitles" : "Artist - Designer - Software engineer",
+        "aboutMeTitle" : "My name is <b>Mariela Rocha Corona</b>, a.k.a. <b>Maricrown</b> and I'm",
+        "aboutMeJobTitles" : "<span>AN ARTIST</span><span>A DESIGNER</span><span>A SOFTWARE ENGINEER</span>",
+        "aboutMeText": "Young multidisciplinary woman with a passion for learning new skills.<br/>Coding, acting, illustration and design are my main strengths, however nothing new is scary to me, whichever challenge that may come up ahead, I will confront. <br>I studied enough about arts and design which lead me to start working as a freelance graphic designer back in 2019.<br>By the end of 2023 I completed my bachelor's degree in Computational Systems and Software Development at <a href='https://www.lasallebajio.edu.mx/' style='color: #de9a34;'>La Salle Bajío</a> University.<br>I'm excited about the opportunities that lie ahead!",
+        "portfolioTitle" : "portfolio",
+        "portfolioSections" : "Design - Illustration - Modeling - Programming - Theater",
+        "portfolioDesignTitle" : "design",
+        "portfolioIllustrationTitle" : "illustration",
+        "portfolioModelingTitle" : "modeling",
+        "portfolioProgrammingTitle" : "programming",
+        "portfolioTheaterTitle" : "Theater",
+        "experienceFormativeFilter" : "formative",
+        "experienceLaboralFilter" : "laboral",
+        "experienceCertificationsFilter" : "certifications",
+        "contactMeTitle" : "Contact me",
+        "contactMeFormInputs" : "<input type='text' name='name' placeholder=\"What's your name?\" class='contactInput' required/><input type='email' name='email' placeholder='Email address' class='contactInput' required/><br><textarea type='text' name='message' placeholder='Write a message for Maricrown...' class='contactInput' required></textarea>",
+        "contactMeSubmitButton" : "submit",
+        "footerResourcesTitle" : "RESOURCES",
+        "footerSitemapTitle" : "SITEMAP",
+        "footerSitemapHome" : "home",
+        "footerSitemapAboutMe" : "about me",
+        "footerSitemapExperience" : "exp./edu.",
+        "footerSitemapContactMe" : "contact me",
+        "footerSitemapPortfoliosTitle" : "PORTFOLIOS",
+        "footerSitemapPortfolioDesign" : "graphic design",
+        "footerSitemapPortfolioIllustration" : "illustration",
+        "footerSitemapPortfolioModeling" : "modeling",
+        "footerSitemapPortfolioProgramming" : "programming",
+        "footerSitemapPortfolioTheater" : "Theater",
+        "timelineData" : {
+            "educationData" : [
+                {
+                    "title": "Bachelor's degree in Software Engineering and Computational Systems.",
+                    "date": "2019-2023",
+                    "institution":"La Salle Bajío University",
+                    "place":"León Gto.",
+                    "description": "I developed multiplatform software collaborativelly in diverse languages following the best industry standards.",
+                    "link": ""
+                },
+                {
+                    "title": "Theater appreticeship.",
+                    "date": "2021-2023",
+                    "institution":"La Salle Bajío University",
+                    "place":"León Gto.",
+                    "description": "I participated in multiple theatrical productions both as an actress and staff.",
+                    "link": ""
+                },
+                {
+                    "title": "\"Java programming for complete beginners\" Course.",
+                    "date": "2024",
+                    "institution":"in28minutes official",
+                    "place":"Udemy",
+                    "description": "",
+                    "link": "https://www.udemy.com/certificate/UC-0168a134-c017-4bfa-a20e-6332d034b091/"
+                },
+                {
+                    "title": "\"Java Programming I\"",
+                    "date": "2024",
+                    "institution":"University of Helsinki",
+                    "place":"open online course (MOOC)",
+                    "description": "",
+                    "link": "https://certificates.mooc.fi/validate/4he452lrjwz"
+                },
+                {
+                    "title": "\"Java Programming II\"",
+                    "date": "2024-(current)",
+                    "institution":"University of Helsinki",
+                    "place":"open online course (MOOC)",
+                    "description": "",
+                    "link": ""
+                }
+            ],
+            "laboralData" : [
+                {
+                    "title": "Elementary english teacher.",
+                    "date": "2022",
+                    "institution": "La Salle Bajío",
+                    "place": "La Cantera, San Felipe",
+                    "contract": "Volunteering",
+                    "description": "I taught intensive elementary English classes to 30 children during 2 weeks.",
+                    "link":""
+                },
+                {
+                    "title": "Graphic designer & content creator.",
+                    "date": "2023-2024",
+                    "institution": "Juventudes Gto",
+                    "place": "Remote",
+                    "contract": "Contract",
+                    "description": "I developed multiple targeted training courses, including it's content and graphics.",
+                    "link":""
+                },
+                {
+                    "title": "Graphic designer & content creator.",
+                    "date": "2023-2024",
+                    "institution": "Sapal",
+                    "place": "León Gto.",
+                    "contract": "Outsourcing",
+                    "description": "I developed multiple targeted training courses, including it's content and graphics.",
+                    "link":""
+                },
+                {
+                    "title": "Freelance artist, illustrator & graphic designer.",
+                    "date": "2019-2024",
+                    "institution": "Fiveer",
+                    "place": "Remote",
+                    "contract": "Freelance",
+                    "description": "Ellaboration of logos, comic strips, portraits, icons, infographics, etc... for clients all around the world.",
+                    "link":""
+                }
+            ],
+            "certificationsData" : [
+                {
+                    "title": "AWS Cloud Practitioner",
+                    "date": "2022-2025",
+                    "institution": "Amazon Web Services",
+                    "link": "https://www.credly.com/badges/25f4df53-967e-42d7-9f15-91d572c6cd03/linked_in_profile"
+                },
+                {
+                    "title": "EF SET C2 English Certification",
+                    "date": "issued 2021",
+                    "institution": "EF Education First",
+                    "link": "https://cert.efset.org/bhok52"
+                }
+            ]
+        }
+    },
+    "es" : {
+        "navAboutMe" : "¿quién soy?",
+        "navPortfolio" : "portafolio",
+        "navExperience" : "exp./edu",
+        "navContactMe" : "contáctame",
+        "homeJobTitles" : "Artista - Diseñadora - Ing. de Software",
+        "aboutMeTitle" : "Mi nombre es <b>Mariela Rocha Corona</b> (<b>Maricrown</b>) y yo soy",
+        "aboutMeJobTitles" : "<span>ARTISTA</span><span>DISEÑADORA</span><span>ING. DE SOFTWARE</span>",
+        "aboutMeText": "Joven mujer multidisciplinaria con una gran pasión por aprender cosas nuevas.<br/>Programar, actuar, ilustrar y diseñar son mis fuertes, nada nuevo me intimida, cualquier reto que se presente, lo confrontare. <br>Mi pasión por aprender me ha llevado a laborar como diseñadora gráfica freelance desde el 2019.<br>A finales del 2023 me gradué de la carrera de Ingeniería de Software y Sistemas Computacionales en la universidad de <a href='https://www.lasallebajio.edu.mx/' style='color: #de9a34;'>La Salle Bajío</a>.<br>Me emocionan las oportunidades que se encuentren en mi camino.",
+        "portfolioTitle" : "Portafolio",
+        "portfolioSections" : "Diseño - Ilustración - Modelaje - Programación - Teatro",
+        "portfolioDesignTitle" : "diseño",
+        "portfolioIllustrationTitle" : "ilustración",
+        "portfolioModelingTitle" : "modelaje",
+        "portfolioProgrammingTitle" : "programación",
+        "portfolioTheaterTitle" : "teatro",
+        "experienceFormativeFilter" : "formativo",
+        "experienceLaboralFilter" : "laboral",
+        "experienceCertificationsFilter" : "certificaciones",
+        "contactMeTitle" : "Contáctame",
+        "contactMeFormInputs" : "<input type='text' name='name' placeholder='¿Cuál es tu nombre?' class='contactInput' required/><input type='email' name='email' placeholder='correo eléctronico' class='contactInput' required/><br><textarea type='text' name='message' placeholder='Escribe un mensaje para Maricrown...' class='contactInput' required></textarea>",
+        "contactMeSubmitButton" : "Enviar",
+        "footerResourcesTitle" : "RECURSOS",
+        "footerSitemapTitle" : "MAPA DEL SITIO",
+        "footerSitemapHome" : "inicio",
+        "footerSitemapAboutMe" : "¿quién soy?",
+        "footerSitemapExperience" : "exp./edu.",
+        "footerSitemapContactMe" : "contáctame",
+        "footerSitemapPortfoliosTitle" : "PORTAFOLIOS",
+        "footerSitemapPortfolioDesign" : "diseño",
+        "footerSitemapPortfolioIllustration" : "ilustración",
+        "footerSitemapPortfolioModeling" : "modelaje",
+        "footerSitemapPortfolioProgramming" : "programación",
+        "footerSitemapPortfolioTheater" : "teatro",
+        "timelineData" : {
+            "educationData" : [
+                {
+                    "title": "Licenciatura en Ingeniería de Software y Sistemas Computacionales.",
+                    "date": "2019-2023",
+                    "institution":"Universidad La Salle Bajío",
+                    "place":"León Gto.",
+                    "description": "Desarrollé software multiplataforma de manera colaborativa en diversos lenguajes siguiendo los estandares de la industria.",
+                    "link": ""
+                },
+                {
+                    "title": "Taller de teatro.",
+                    "date": "2021-2023",
+                    "institution":"La Salle Bajío University",
+                    "place":"León Gto.",
+                    "description": "Participé en diversos montajes, tanto como actriz como producción.",
+                    "link": ""
+                },
+                {
+                    "title": "Curso \"Java programming for complete beginners\".",
+                    "date": "2024",
+                    "institution":"in28minutes official",
+                    "place":"Udemy",
+                    "description": "",
+                    "link": "https://www.udemy.com/certificate/UC-0168a134-c017-4bfa-a20e-6332d034b091/"
+                },
+                {
+                    "title": "Curso \"Java Programming I\"",
+                    "date": "2024",
+                    "institution":"Universidad de Helsinki",
+                    "place":"open online course (MOOC)",
+                    "description": "",
+                    "link": "https://certificates.mooc.fi/validate/4he452lrjwz"
+                },
+                {
+                    "title": "Curso \"Java Programming II\"",
+                    "date": "2024-(current)",
+                    "institution":"Universidad de Helsinki",
+                    "place":"open online course (MOOC)",
+                    "description": "",
+                    "link": ""
+                }
+            ],
+            "laboralData" : [
+                {
+                    "title": "Maestra de inglés básico.",
+                    "date": "2022",
+                    "institution": "La Salle Bajío",
+                    "place": "La Cantera, San Felipe",
+                    "contract": "Voluntariado",
+                    "description": "Impartí clases de inglés básico a un grupo de 30 niños por 2 semanas.",
+                    "link":""
+                },
+                {
+                    "title": "Diseñadora gráfica y creadora de contenido.",
+                    "date": "2023-2024",
+                    "institution": "Juventudes Gto",
+                    "place": "Remoto",
+                    "contract": "Contrato",
+                    "description": "Elaboré multiples cursos para capacitación, incluyendo sus contenidos y gráficos.",
+                    "link":""
+                },
+                {
+                    "title": "Diseñadora gráfica y creadora de contenido.",
+                    "date": "2023-2024",
+                    "institution": "Sapal",
+                    "place": "León Gto.",
+                    "contract": "Outsourcing",
+                    "description": "Elaboré multiples cursos para capacitación, incluyendo sus contenidos y gráficos.",
+                    "link":""
+                },
+                {
+                    "title": "Artista, ilustradora & diseñadora gráfica freelance.",
+                    "date": "2019-2024",
+                    "institution": "Fiveer",
+                    "place": "Remoto",
+                    "contract": "Freelance",
+                    "description": "Elaboración de logotipos, tiras cómicas, retratos, iconos, infografías, etc... para clientes alrededor del mundo.",
+                    "link":""
+                }
+            ],
+            "certificationsData" : [
+                {
+                    "title": "AWS Cloud Practitioner",
+                    "date": "2022-2025",
+                    "institution": "Amazon Web Services",
+                    "link": "https://www.credly.com/badges/25f4df53-967e-42d7-9f15-91d572c6cd03/linked_in_profile"
+                },
+                {
+                    "title": "Certificado EF SET C2 English",
+                    "date": "recibidó 2021",
+                    "institution": "EF Education First",
+                    "link": "https://cert.efset.org/bhok52"
+                }
+            ]
+        }
+    },
+    "de" : {
+        "navAboutMe" : "Wer ist ich?",
+        "navPortfolio" : "Portfolio",
+        "navExperience" : "Erfahrung",
+        "navContactMe" : "Kontakt",
+        "homeJobTitles" : "Künstlerin - Grafikdesignerin - Systemingenieur",
+        "aboutMeTitle" : "Mein name ist <b>Mariela Rocha Corona</b>, a.k.a. <b>Maricrown</b> und ich bin",
+        "aboutMeJobTitles" : "<span>KÜNSTLERIN</span><span>GRAFIKDESIGNERIN</span><span>SYSTEMINGENIEURIN</span>",
+        "aboutMeText": "Jung multidisziplinär frau, Ich lernen neu geschicklichkeiten gern. <br/>Programmieren, spielen und zeichen sin meine seelenstärke, die neu herausforderungen sind aufregend.<br>Ich zeichen lernen seit ich ein mädchen bin, jetzt ich arbeite als freelance grafikdesignerin seit 2019.<br>Ich habe meinen systemingenieur Abschluss gemacht im 2023, in <a href='https://www.lasallebajio.edu.mx/' style='color: #de9a34;'>La Salle Bajío</a> universität.<br>Ich bin deutsch sprache niveau A1, ich spreche nur ein bisschen deutsch. ",
+        "portfolioTitle" : "portfolio",
+        "portfolioSections" : "Grafik - Abbildung - Modellierung - Programmieren - Theater",
+        "portfolioDesignTitle" : "grafik",
+        "portfolioIllustrationTitle" : "Abbildung",
+        "portfolioModelingTitle" : "Modellierung",
+        "portfolioProgrammingTitle" : "Programmieren",
+        "portfolioTheaterTitle" : "Theater",
+        "experienceFormativeFilter" : "Ausbildung",
+        "experienceLaboralFilter" : "Arbeits",
+        "experienceCertificationsFilter" : "Bescheinigungen",
+        "contactMeTitle" : "Kontakt",
+        "contactMeFormInputs" : "<input type='text' name='name' placeholder='Was ist deine name?' class='contactInput' required/><input type='email' name='email' placeholder='Email' class='contactInput' required/><br><textarea type='text' name='message' placeholder='Ein botschaft schreiben für Maricrown...' class='contactInput' required></textarea>",
+        "contactMeSubmitButton" : "schicken",
+        "footerResourcesTitle" : "RESSOURCEN",
+        "footerSitemapTitle" : "WEBSITE KARTE",
+        "footerSitemapHome" : "beginn",
+        "footerSitemapAboutMe" : "wer ist ich?",
+        "footerSitemapExperience" : "erfahrung",
+        "footerSitemapContactMe" : "kontakt",
+        "footerSitemapPortfoliosTitle" : "PORTFOLIO",
+        "footerSitemapPortfolioDesign" : "grafik",
+        "footerSitemapPortfolioIllustration" : "abbildung",
+        "footerSitemapPortfolioModeling" : "modellierung",
+        "footerSitemapPortfolioProgramming" : "programmieren",
+        "footerSitemapPortfolioTheater" : "theater",
+        "timelineData" : {
+            "educationData" : [
+                {
+                    "title": "Diplom im sytemingenieur.",
+                    "date": "2019-2023",
+                    "institution":"La Salle Bajío Universität",
+                    "place":"León Gto.",
+                    "description": "Ich programmieren in verschiedenen Programmiersprachen.",
+                    "link": ""
+                },
+                {
+                    "title": "Theater werkstatt.",
+                    "date": "2021-2023",
+                    "institution":"La Salle Bajío University",
+                    "place":"León Gto.",
+                    "description": "Ich war schauspielerin und helfe mit produktion.",
+                    "link": ""
+                },
+                {
+                    "title": "\"Java programming for complete beginners\" kurs.",
+                    "date": "2024",
+                    "institution":"in28minutes official",
+                    "place":"Udemy",
+                    "description": "",
+                    "link": "https://www.udemy.com/certificate/UC-0168a134-c017-4bfa-a20e-6332d034b091/"
+                },
+                {
+                    "title": "\"Java Programming I\"",
+                    "date": "2024",
+                    "institution":"Helsinki Universität",
+                    "place":"open online course (MOOC)",
+                    "description": "",
+                    "link": "https://certificates.mooc.fi/validate/4he452lrjwz"
+                },
+                {
+                    "title": "\"Java Programming II\"",
+                    "date": "2024-(current)",
+                    "institution":"Helsinki Universität",
+                    "place":"open online course (MOOC)",
+                    "description": "",
+                    "link": ""
+                }
+            ],
+            "laboralData" : [
+                {
+                    "title": "Lehrerin von englisch grundlegend.",
+                    "date": "2022",
+                    "institution": "La Salle Bajío",
+                    "place": "La Cantera, San Felipe",
+                    "contract": "Freiwillig",
+                    "description": "Ich gab englischunterricht bei 30 kinder, für zwei woche.",
+                    "link":""
+                },
+                {
+                    "title": "Grafikdesignerin und Content-Erstellerin.",
+                    "date": "2023-2024",
+                    "institution": "Juventudes Gto",
+                    "place": "Fern",
+                    "contract": "Vertrag",
+                    "description": "Ich entwarf verschiedene Kurse.",
+                    "link":""
+                },
+                {
+                    "title": "Grafikdesignerin und Content-Erstellerin.",
+                    "date": "2023-2024",
+                    "institution": "Sapal",
+                    "place": "León Gto.",
+                    "contract": "Outsourcing",
+                    "description": "Ich entwarf verschiedene Kurse.",
+                    "link":""
+                },
+                {
+                    "title": "Freelance künztlerin & grafikdesignerin.",
+                    "date": "2019-2024",
+                    "institution": "Fiveer",
+                    "place": "Fern",
+                    "contract": "Freelance",
+                    "description": "Ich logos, porträts, icons, infografiken, etc... getmachen für international clienten.",
+                    "link":""
+                }
+            ],
+            "certificationsData" : [
+                {
+                    "title": "AWS Cloud Practitioner",
+                    "date": "2022-2025",
+                    "institution": "Amazon Web Services",
+                    "link": "https://www.credly.com/badges/25f4df53-967e-42d7-9f15-91d572c6cd03/linked_in_profile"
+                },
+                {
+                    "title": "EF SET C2 English Certification",
+                    "date": "issued 2021",
+                    "institution": "EF Education First",
+                    "link": "https://cert.efset.org/bhok52"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+:root{
+    --color-1: black;
+    --text-color: #f0f0f0;
+    --accent-color: #de9a34;
+}
+*{
+    margin: 0;
+    padding: 0;
+} 
+
+body{
+    display: grid;
+    flex-direction: column;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.content{
+    overflow-y: scroll;
+    flex: 1;
+    scroll-behavior: smooth;
+    position:relative;
+}
+
+html{
+    width: 100vw;
+    overflow: hidden;
+    cursor: crosshair;
+    height: 100vh;
+    font-size: 12pt;
+    font-family: 'Quicksand','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+nav{
+    height: 80px;
+    background-image: linear-gradient(black,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.5), transparent);
+    backdrop-filter: blur(1px);
+    position: fixed;
+    width: 100%;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    letter-spacing: 3px;
+    z-index: 7;
+    text-transform: uppercase;    
+}
+
+.links-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}
+
+.selected{
+    color: var(--accent-color);
+    font-style: bold;
+    margin-bottom: 10px;
+}
+
+nav a{
+    white-space: nowrap;
+    width: fit-content;
+    height: 100%;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--text-color);
+    transition: 0.3s;
+}
+nav a:hover{
+    color: var(--accent-color);
+    margin-bottom: 10px;
+}
+
+nav .home-link, .home-link svg path{
+    width: fit-content;
+    margin-right: auto;
+    transition: 1s;
+    fill: var(--text-color);
+}
+
+nav .home-link:hover, .home-link:hover svg path{
+    margin-bottom: 0;
+    color: var(--accent-color);
+    fill: var(--accent-color);
+    letter-spacing: 10px;
+    
+}
+
+nav svg{
+    fill: var(--text-color);
+}
+
+nav svg:hover{
+    fill: var(--accent-color);
+}
+
+#sidebar-active{
+    display: none;
+}
+
+.open-sidebar-button, .close-sidebar-button{
+    display: none;
+}
+
+
+@media(max-width: 1160px){
+    .links-container{
+        flex-direction: column;
+        align-items: flex-start;
+
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 10;
+        height: 100vh;
+        width: fit-content;
+
+        backdrop-filter: blur(5px);
+        background-color: rgba(0, 0, 0, 0.777);
+        transition: 0.75s ease-out;
+    }
+    nav a{
+        box-sizing: border-box;
+        height: auto;
+        width: 100%;
+        padding: 20px 30px;
+        justify-content: flex-start;
+    }
+    
+    nav .home-link{
+        padding: 10px;
+    }
+    .open-sidebar-button, .close-sidebar-button{
+        padding: 20px;
+        display: block;
+    }
+    
+    #sidebar-active:checked ~ .links-container{
+        right: 0;
+    }
+
+    #sidebar-active:checked ~ #overlay{
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9;
+        background-color: #0000007e;
+        transition: 2s ease-out;
+    }
+
+    #home{
+        overflow: hidden;
+    }
+}
+section{
+    position: relative;
+    height: fit-content;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#particles-js {
+    width: 100%;
+    height: 99.5vh;
+    background-color: rgb(9, 9, 9);
+    background-size: cover;
+    background-position: 50% 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+.centeredTitle{
+    color: var(--text-color);
+    letter-spacing: 10px;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#home {
+    position: relative;
+    height: 100vh;
+    background-color: #de9a34;
+    text-shadow: 2px 2px 8px #000000;
+  }
+
+.homeImage {
+    position: absolute;
+    overflow: hidden;
+    top: 10%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    height: 700px;
+    object-fit:cover;
+    border-color: #f0f0f078;
+    border-style:solid;
+    border-width: 0px;
+    width: 300px; /* Adjust the image size as needed */
+    transition: 2s;
+    /* Parallax effect */
+    transform: translateY(0);
+}

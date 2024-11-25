@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="favicon.svg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maricrown</title>
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/aboutMe.css">
+    <link rel="stylesheet" href="./css/portfolio.css">
+    <link rel="stylesheet" href="./css/experience.css">
+    <link rel="stylesheet" href="./css/contactMe.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/noiseOverlay.css">
+    <link rel="stylesheet" href="./css/languageButton.css">
+
+
+</head>
+<body>
+    <div class="content" id="content" onscroll="">
+        <nav>
+            <a class="home-link" href="#home">
+                <svg class="home-link" width="60" height="60" viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg"  fill="#ffffff">
+                    <path d="m 271.32834,611.82483 67.06336,37.33589 V 565.1394 l -16.94839,-9.78516 v -95.27702 l 116.43841,67.22575 94.57549,-94.57549 96.50032,96.50032 120.286,-69.44716 v 97.59388 L 350.22107,787.75025 398.72576,836.25494 797.00577,606.30786 V 366.60232 L 639.60169,457.47961 533.06877,350.94668 423.59073,460.42471 271.36391,372.53651 Z" />
+                    <path d="M 392.67901,755.38923 V 507.85714 l -45.28132,-26.14318 10e-4,299.81535 z" />
+                    <path d="m 457.61418,716.2532 68.80445,-39.72427 -124.31592,-71.77383 -0.0201,80.47927 z" />
+                    <path d="m 606.48263,723.93304 60.06021,32.54526 v 81.79679 L 537.47095,763.76013 Z" />
+                    <path d="M 675.90569,836.67369 V 684.47936 l 44.02952,-25.42045 v 133.24383 z" />
+                    <path d="m 720.5,483 -45.04511,26.0068 V 592 l 45.02662,-25.99613 z" />
+                    <path d="m 675.75,428 45.02179,-25.99335 V 307.75 L 619.88589,206.8641 532.875,293.875 446,207 346,307 v 98.75 l 44.76282,25.84382 V 334.25 L 439.75641,285.25641 514,359.5 l 18.75,-18.75 19.625,19.625 75.75,-75.75 L 675.5,332 Z" />
+                  </svg>
+                  MARICROWN
+            </a>
+            <input type="checkbox" id="sidebar-active">
+            <label for="sidebar-active" class="open-sidebar-button">
+                <svg xmlns="http://www.w3.org/2000/svg" height="28" viewBox="0 -960 960 960" width="28" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+            </label>
+            
+            <label id="overlay" for="sidebar-active"></label>
+    
+            <div class="links-container">
+                <label for="sidebar-active" class="close-sidebar-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+                </label>
+                <div style="margin-right: auto;"></div>
+                <a id="navAboutMe" href="#aboutMe" class="translates">WHO AM I?</a>
+                <a id="navPortfolio" href="#portfolio" class="translates">PORTFOLIO</a>
+                <a id="navExperience" href="#experience" class="translates">EXP./EDU.</a>
+                <!--a href="#testimonials">TESTIMONIALS</a-->
+                <!--a href="#blog">BLOG</a-->
+                <a id="navContactMe" href="#contactMe" class="translates">CONTACT ME</a>
+            </div>
+        </nav> 
+        
+        <section id="home">
+          <div id="particles-js">
+            <img src="./assets/images/maricrown.jpg" class="homeImage" id="homeImg">
+
+              <div class="centeredTitle">                    
+                <h1>
+                  MARIELA ROCHA CORONA
+                </h1>
+                <p id="homeJobTitles" class="translates"></p>
+              </div>
+            </div>
+        </section>
+
+        <section id="aboutMe">
+          <div class="sliderWrapper">
+            <div class="slider">
+              <a  href="#img2">
+                <img class="aboutMeImg" id="img1" src="./assets/images/aboutMe/img1.jpg" alt="Picture of me holding flowers while wearing her graduation robe.">
+              </a>
+              <a  href="#img3">
+              <img class="aboutMeImg" id="img2" src="./assets/images/aboutMe/img3.jpg" alt="Picture of me at the international hot air balloon festival.">
+              </a>
+              <a  href="#img4">
+              <img class="aboutMeImg" id="img3" src="./assets/images/aboutMe/img2.jpg" alt="Picture of me at the Louvre museum.">
+              </a>
+              <a  href="#img1">
+              <img class="aboutMeImg" id="img4" src="./assets/images/aboutMe/img4.jpg" alt="Picture of me pointing at a random boat I found that has my name.">
+              </a>
+            </div>
+            <div class="slider-nav">
+              <a href="#img1"></a>
+              <a href="#img2"></a>
+              <a href="#img3"></a>
+              <a href="#img4"></a>
+            </div>
+          </div>
+          
+          <div class="aboutMeContent">
+            <div id="aboutMeTitle" class="title translates"></div>
+            <div id="aboutMeJobTitles" class="jobTitle translates">
+            </div>
+            <div class="pWrapper" id="pWrapper">
+              <p id="aboutMeText" class="translates">
+              </p>
+            </div>
+            
+          </div>
+        </section>
+
+        <section id="portfolio">
+          <div class="title">
+            <h3 id="portfolioTitle" class="translates"></h3>
+            
+          </div>
+          <p id="portfolioSections" class="translates"></p>
+          <div class="container" style="overflow: hidden;">
+            <div class="parallax" dataValue = "-5">
+            </div>
+          <div class="gallery">
+            <a class="imgBox" href="./pages/portfolio.html" onclick="localStorage.setItem('currentPortfolio','design')">
+              <h3 id="portfolioDesignTitle" class="translates"></h3>
+            </a>
+            <a class="imgBox" href="./pages/portfolio.html" onclick="localStorage.setItem('currentPortfolio','illustration')">
+              <h3 id="portfolioIllustrationTitle" class="translates"></h3>
+            </a>
+            <a class="imgBox" href="./pages/portfolio.html" onclick="localStorage.setItem('currentPortfolio','modeling')">
+              <h3 id="portfolioModelingTitle" class="translates"></h3>
+            </a>
+            <a class="imgBox" href="./pages/portfolio.html" onclick="localStorage.setItem('currentPortfolio','programming')">
+              <h3 id="portfolioProgrammingTitle" class="translates"></h3>
+            </a>
+            <a class="imgBox" href="./pages/portfolio.html" onclick="localStorage.setItem('currentPortfolio','theater')">
+              <h3 id="portfolioTheaterTitle" class="translates"></h3>
+            </a>
+          </div>
+        </div>
+        </section>
+
+        <section id="experience">
+          <div class="line" ></div>
+          <div class="filterBar">
+            <button id="experienceFormativeFilter" class="btnBlack selected translates" onclick="loadTimeline(this)" value="educationData"></button>
+            <button id="experienceLaboralFilter" class="btnBlack translates" onclick="loadTimeline(this)" value="laboralData"></button>
+            <button id="experienceCertificationsFilter" class="btnBlack translates" onclick="loadTimeline(this)" value="certificationsData"></button>
+          </div>
+          <div id="timeline" class="timeline">
+            <div id="timelineItems">
+
+            </div>
+          </div>
+        </section>
+
+        <!--section id="testimonials">Testimonials</section>
+        <section id="blog">Blog</section-->
+        <section id="contactMe">
+          <div class="contactContainer">
+            <form action="https://api.web3forms.com/submit" method="POST">
+              <input type="hidden" name="access_key" value="2870bc73-d1d3-4624-8ab2-60a273208ae2">
+              <div id="contactMeTitle" class="contactFormTitle translates">
+                Contact me
+              </div>
+              <div id="contactMeFormInputs" class="translates">
+                <input type="text" name="name" placeholder="What's your name?" class="contactInput" required/>
+                <input type="email" name="email" placeholder="Email address" class="contactInput" required/>
+                <br>
+                <textarea type="text" name="message" placeholder="Write a message for Maricrown..." class="contactInput" required></textarea>
+              </div>
+              <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+              
+              <button id="contactMeSubmitButton" type="submit" class="btnOrange translates" ></button>
+            </form>
+          </div>
+        </section>
+
+        <footer>
+          <div class="content left">
+            <h3 id="footerResourcesTitle" class="translates"></h3>
+            <a href="https://github.com/VincentGarreau/particles.js/" target="_blank">particles js library</a>
+          </div>
+          <div class="content">
+            <svg class="home-link" width="100" height="100" viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg"  fill="#ffffff">
+              <path d="m 271.32834,611.82483 67.06336,37.33589 V 565.1394 l -16.94839,-9.78516 v -95.27702 l 116.43841,67.22575 94.57549,-94.57549 96.50032,96.50032 120.286,-69.44716 v 97.59388 L 350.22107,787.75025 398.72576,836.25494 797.00577,606.30786 V 366.60232 L 639.60169,457.47961 533.06877,350.94668 423.59073,460.42471 271.36391,372.53651 Z" />
+              <path d="M 392.67901,755.38923 V 507.85714 l -45.28132,-26.14318 10e-4,299.81535 z" />
+              <path d="m 457.61418,716.2532 68.80445,-39.72427 -124.31592,-71.77383 -0.0201,80.47927 z" />
+              <path d="m 606.48263,723.93304 60.06021,32.54526 v 81.79679 L 537.47095,763.76013 Z" />
+              <path d="M 675.90569,836.67369 V 684.47936 l 44.02952,-25.42045 v 133.24383 z" />
+              <path d="m 720.5,483 -45.04511,26.0068 V 592 l 45.02662,-25.99613 z" />
+              <path d="m 675.75,428 45.02179,-25.99335 V 307.75 L 619.88589,206.8641 532.875,293.875 446,207 346,307 v 98.75 l 44.76282,25.84382 V 334.25 L 439.75641,285.25641 514,359.5 l 18.75,-18.75 19.625,19.625 75.75,-75.75 L 675.5,332 Z" />
+            </svg >
+            <h3>maricrown</h3>
+            <div class="socialLinks">
+              <a href="https://www.behance.net/maricrown" target="_blank" ><svg width="40px" height="40px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" class="icon" fill="#ffffff">
+                <path d="M420.3 470.3c8.7-6.3 12.9-16.7 12.9-31 .3-6.8-1.1-13.5-4.1-19.6-2.7-4.9-6.7-9-11.6-11.9a44.8 44.8 0 0 0-16.6-6c-6.4-1.2-12.9-1.8-19.3-1.7h-70.3v79.7h76.1c13.1.1 24.2-3.1 32.9-9.5zm11.8 72c-9.8-7.5-22.9-11.2-39.2-11.2h-81.8v94h80.2c7.5 0 14.4-.7 21.1-2.1a50.5 50.5 0 0 0 17.8-7.2c5.1-3.3 9.2-7.8 12.3-13.6 3-5.8 4.5-13.2 4.5-22.1 0-17.7-5-30.2-14.9-37.8zM512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm86.5 286.9h138.4v33.7H598.5v-33.7zM512 628.8a89.52 89.52 0 0 1-27 31c-11.8 8.2-24.9 14.2-38.8 17.7a167.4 167.4 0 0 1-44.6 5.7H236V342.1h161c16.3 0 31.1 1.5 44.6 4.3 13.4 2.8 24.8 7.6 34.4 14.1 9.5 6.5 17 15.2 22.3 26 5.2 10.7 7.9 24.1 7.9 40 0 17.2-3.9 31.4-11.7 42.9-7.9 11.5-19.3 20.8-34.8 28.1 21.1 6 36.6 16.7 46.8 31.7 10.4 15.2 15.5 33.4 15.5 54.8 0 17.4-3.3 32.3-10 44.8zM790.8 576H612.4c0 19.4 6.7 38 16.8 48 10.2 9.9 24.8 14.9 43.9 14.9 13.8 0 25.5-3.5 35.5-10.4 9.9-6.9 15.9-14.2 18.1-21.8h59.8c-9.6 29.7-24.2 50.9-44 63.7-19.6 12.8-43.6 19.2-71.5 19.2-19.5 0-37-3.2-52.7-9.3-15.1-5.9-28.7-14.9-39.9-26.5a121.2 121.2 0 0 1-25.1-41.2c-6.1-16.9-9.1-34.7-8.9-52.6 0-18.5 3.1-35.7 9.1-51.7 11.5-31.1 35.4-56 65.9-68.9 16.3-6.8 33.8-10.2 51.5-10 21 0 39.2 4 55 12.2a111.6 111.6 0 0 1 38.6 32.8c10.1 13.7 17.2 29.3 21.7 46.9 4.3 17.3 5.8 35.5 4.6 54.7zm-122-95.6c-10.8 0-19.9 1.9-26.9 5.6-7 3.7-12.8 8.3-17.2 13.6a48.4 48.4 0 0 0-9.1 17.4c-1.6 5.3-2.7 10.7-3.1 16.2H723c-1.6-17.3-7.6-30.1-15.6-39.1-8.4-8.9-21.9-13.7-38.6-13.7z"/>
+              </svg></a>
+              <a href="https://github.com/maricrown" target="_blank" ><svg width="38px" height="38px"  viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" fill="#ffffff"><path d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z"/></svg></a>
+              <a href="https://www.linkedin.com/in/mariela-rocha-corona-498331205/" target="_blank" ><svg  width="40px" height="40px" viewBox="0 0 67 67" xmlns="http://www.w3.org/2000/svg" fill="#ffffff"><path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z"/></svg></a>
+
+              </a>
+            </div>
+          </div>
+          <div class="content right">
+            <h3 id="footerSitemapTitle" class="translates"></h3>
+            <a id="footerSitemapHome" href="#home" class="translates"></a>
+            <a id="footerSitemapAboutMe" href="#aboutMe" class="translates"></a>
+            <a id="footerSitemapExperience" href="#experience" class="translates"></a>
+            <a id="footerSitemapContactMe" href="#contactMe" class="translates"></a>
+            <br>
+            <h3 id="footerSitemapPortfoliosTitle" class="translates"></h3>
+            <a id="footerSitemapPortfolioDesign" href="../pages/portfolio.html" class="translates"></a>
+            <a id="footerSitemapPortfolioIllustration" href="./pages/portfolio.html" class="translates"></a>
+            <a id="footerSitemapPortfolioModeling" href="./pages/portfolio.html" class="translates"></a>
+            <a id="footerSitemapPortfolioProgramming" href="./pages/portfolio.html" class="translates"></a>
+            <a id="footerSitemapPortfolioTheater" href="./pages/portfolio.html" class="translates"></a>
+          </div>
+        </footer>
+    </div>
+    
+    <button id="toggleLanguage" onclick="changeLanguageOnClick(this)" value="en">en</button>
+
+    <div class="noiseOverlay"></div>
+</body>
+<script src="./libraries/particles/particles.js"></script>
+<script src="./libraries/particles/demo/js/app.js"></script>
+<script src="./scripts/particleConfig.js"></script>
+<script src="./scripts/parallax.js"></script>
+<script src="./scripts/home.js"></script>
+
+<script type="text/javascript">
+  //=============VARIABLES AND CONSTANTS==============
+  //Language handling values
+  const availableLanguages = ["en","es","de"];
+  let selectedLanguage = 0;
+  if(localStorage.getItem("languageIndex")){
+    selectedLanguage = localStorage.getItem("languageIndex");
+    document.getElementById("toggleLanguage").value = availableLanguages[selectedLanguage];
+    document.getElementById("toggleLanguage").innerHTML = availableLanguages[selectedLanguage];
+  }
+  
+
+  const translatableContent = document.querySelectorAll(".translates");
+
+  //Experience section values
+  var timelineData = {};
+  const timelineContainer =  document.getElementById("timeline");
+
+  //==============MARICROWN INIT============
+
+  initWebPage();
+
+  function initWebPage(){
+    //sets timeline line position responsively
+    window.addEventListener("resize", ()=>{
+            setTimeLinePosition();
+    });
+
+    //Load default language
+    setLanguage(availableLanguages[selectedLanguage]);
+  }
+  
+  
+  //=========LANGUAGE HANDLING=============
+ 
+  function setLanguage(language){
+    document.documentElement.lang = language;
+
+    fetch("./data/languagesContent.json")
+      .then(response => response.json())
+      .then(data => {
+        //transalte transaltable elements
+        translatableContent.forEach((element) => {
+          var id = element.getAttribute('id');
+          element.innerHTML = data[language][id];
+        });
+        
+        //set transalted timeline
+        timelineData = data[language].timelineData;
+        loadTimeline();
+      })
+      .catch((error) => {
+        console.log("Unable to fetch data: ",error);
+      });
+  }
+
+  function changeLanguageOnClick(caller){
+    
+    selectedLanguage++;
+    if(selectedLanguage > 2){
+      selectedLanguage = 0;
+    } 
+    caller.value = availableLanguages[selectedLanguage];
+    caller.innerHTML = availableLanguages[selectedLanguage];
+    localStorage.setItem("languageIndex",selectedLanguage);
+    setLanguage(availableLanguages[selectedLanguage]);
+  }
+
+  //=========EXPERIENCE SECTION TIMELINE SETUP===========
+
+  function loadTimeline(caller){
+    //Timeline fadeIn & fadeOut animation
+    timelineContainer.style.opacity = 0;
+    timelineContainer.style.maxHeight = 0;
+
+    //defines which data will be displayed
+    var timelineFilter = 'educationData';
+
+    //Change selected button style
+    if(caller){
+          setSelectedBtnStyle(caller);
+          timelineFilter = caller.getAttribute("value");
+    }
+
+    //filter only the data that is going to be displayed
+    var filteredData = timelineData[timelineFilter];
+
+    //Timeline content gets stored here
+    var html = "";
+
+    //Set timeline childs
+    filteredData.forEach(e => {
+          html+="<div class='child'>"
+              +"<div class='date'>"+e.date+"</div>"
+              +"<div class='dot'></div>"
+              +"<div class='content'>"
+              +"<h3>"+e.title+"</h3>"
+              +"<h4>"+e.institution;
+          if(e.place){
+            html += " | "+e.place;
+
+          }
+          if(e.contract){
+            html+= " | "+e.contract;
+          }
+          html+="</h4>";
+          if(e.description){
+            html+="<h5>"+e.description+"</h5>";
+          }
+          if (e.link.length > 0) {
+              html += "<a href='" + e.link + "' target='_blank'><svg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 -960 960 960' width='24px' fill='#de9a34'><path d='M480-440q-50 0-85-35t-35-85q0-50 35-85t85-35q50 0 85 35t35 85q0 50-35 85t-85 35ZM240-40v-309q-38-42-59-96t-21-115q0-134 93-227t227-93q134 0 227 93t93 227q0 61-21 115t-59 96v309l-240-80-240 80Zm240-280q100 0 170-70t70-170q0-100-70-170t-170-70q-100 0-170 70t-70 170q0 100 70 170t170 70ZM320-159l160-41 160 41v-124q-35 20-75.5 31.5T480-240q-44 0-84.5-11.5T320-283v124Zm160-62Z'/></svg></a>";
+          }
+          html+="</div></div>";
+        });
+
+    //Timeline smooth container animation and line position reload
+    setTimeout(
+      function(){
+        timelineContainer.style.opacity = 1;
+        timelineContainer.innerHTML = html;
+        timelineContainer.style.maxHeight = "400vh";
+        setTimeLinePosition();
+      },
+    1000);
+  }
+
+  function setSelectedBtnStyle(btn){
+      const blackButtons = document.querySelectorAll(".btnBlack");
+      blackButtons.forEach((blackButton) => {
+          blackButton.classList.remove("selected");
+      });
+      btn.classList.add("selected");
+  }
+
+  function setTimeLinePosition(){
+      var line = document.querySelector(".line");
+      var dotBounds = document.querySelector(".dot").getBoundingClientRect();
+      let left= dotBounds.left;
+      line.style.left = left+9+"px";
+  }
+
+
+</script>
+
+
+</html>

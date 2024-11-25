@@ -1,0 +1,204 @@
+{
+    "design":[
+        {
+            "thumbnail" : "1.png",
+            "title" : "bite box logo",
+            "date" : "2021",
+            "contractor" : "bite box",
+            "link" : "",
+            "imgName":"1.png,2.png,3.png,4.png",
+            "videos":"",
+            "description": [
+                "Description.",
+                "Descripción.",
+                "Beschreibung."
+            ]
+        },
+        {
+            "thumbnail" : "6.png",
+            "title" : "baja sae promotionals",
+            "date" : "2023",
+            "contractor" : "baja sae bajío",
+            "link" : "https://www.instagram.com/bajasallebajio/",
+            "imgName":"5.png,6.png",
+            "videos":"https://www.youtube.com/embed/thHlwAcx1xs?si=7hExF1a86cUrBYCZ,https://www.youtube.com/embed/WoKPo7rpJjc?si=p2LKEVaXbFjt_aOH",
+            "description": [
+                "Description.",
+                "Descripción.",
+                "Beschreibung."
+            ]
+        },
+        {
+            "thumbnail" : "7.png",
+            "title" : "corazón florido logo",
+            "date" : "2024",
+            "contractor" : "corazón florido",
+            "link" : "https://www.instagram.com/corazon_florido_clinica/",
+            "imgName":"8.png,9.png,10.png",
+            "videos":"https://www.behance.net/embed/project/202725881?ilo0=1",
+            "description": [
+                "Description.",
+                "Descripción.",
+                "Beschreibung."
+            ]
+        },
+        {
+            "thumbnail" : "0.jpg",
+            "title" : "maricrown logo",
+            "date" : "2024",
+            "contractor" : "maricrown",
+            "link" : "https://maricrown.com/",
+            "imgName":"0.jpg,11.png,12.png,13.gif",
+            "videos":"https://www.behance.net/embed/project/202725881?ilo0=1",
+            "description": [
+                "Description.",
+                "Descripción.",
+                "Beschreibung."
+            ]
+        }
+
+
+    ],
+    "illustration":[
+        {
+            "imgName" : "1.jpg",
+            "sizeClass" : "w-4 h-1"
+        },
+        {
+            "imgName" : "2.jpg",
+            "sizeClass" : "w-1 h-1"
+        },
+        {
+            "imgName" : "4.jpg",
+            "sizeClass" : "w-2 h-2"
+        },
+        {
+            "imgName" : "5.jpg",
+            "sizeClass" : "w-2 h-2"
+        },
+        {
+            "imgName" : "6.png",
+            "sizeClass" : "w-3 h-2"
+        },
+        {
+            "imgName" : "7.png",
+            "sizeClass" : "w-2 h-3"
+        },
+        {
+            "imgName" : "8.jpg",
+            "sizeClass" : "w-2 h-2"
+        },
+        {
+            "imgName" : "3.jpg",
+            "sizeClass" : "w-1 h-4"
+        }
+        ,
+        {
+            "imgName" : "9.png",
+            "sizeClass" : "w-1 h-1"
+        },
+        {
+            "imgName" : "10.png",
+            "sizeClass" : "w-1 h-1"
+        },
+        {
+            "imgName" : "11.png",
+            "sizeClass" : "w-1 h-1"
+        }
+    ], 
+    "modeling":[
+        {
+            "imgName" : "1.jpg",
+            "sizeClass" : "w-2 h-3"
+        },
+        {
+            "imgName" : "2.jpg",
+            "sizeClass" : "w-2 h-2"
+        },
+        {
+            "imgName" : "3.jpg",
+            "sizeClass" : "w-2 h-3"
+        }
+        ,
+        {
+            "imgName" : "4.jpg",
+            "sizeClass" : "w-2 h-2"
+        }
+        
+    ],
+    "programming":[
+        {
+            "thumbnail" : "1.jpg",
+            "title" : "Project title",
+            "date" : "2024",
+            "contractor" : "Language sample",
+            "link" : "https://github.com/maricrown/desarrollo_flutter",
+            "imgName":"1.jpg",
+            "videos":"",
+            "description":[
+                "Description.",
+                "Descripción.",
+                "Beschreibung."
+            ]
+        }
+    ],
+    "theater":[
+        {
+            "thumbnail" : "2.jpg",
+            "title" : "zoológico de khristal",
+            "date" : "2022",
+            "contractor" : "khamino La Salle Bajío",
+            "link" : "https://www.fenal.mx/artisticprogram/detail/75",
+            "imgName":"1.jpg,2.jpg,3.jpg,4.jpg,5.jpg",
+            "videos":"",
+            "description": [
+                "Creative adaptation of Tennessee William's classic 'The glass menagerie', focusing on the failed relationship between the protagonist and the antagonist.<br>Role: Laura Wingfield.",
+                "Adaptación a una pieza del clásico de Tennessee William centrando el ejercicio escénico en la fallida relación de la protagonista y el antagonista. <br>Rol: Laura Wingfield.",
+                "'Der Glasmenagerie' von Tennessee William, darstellung.<br>Rolle: Laura Wingfield."
+            ]
+        },
+        {
+            "thumbnail":"8.jpg",
+            "title" : "vaselina",
+            "date" : "2022",
+            "contractor" : "khamino La Salle Bajío",
+            "link" : "",
+            "imgName":"6.jpg,7.jpg,8.jpg,9.jpg",
+            "videos":"",
+            "description": [
+                "Creative adaptation of 'Grease' the musical.<br>Role: Marty.",
+                "Adaptación creativa del músical de 'Grease' también conocido como 'Vaselina'.<br>Rol: Marty.",
+                "'Grease' musikfilm darstellung.<br>Rolle: Marty."
+            ]
+        },
+        {
+            "thumbnail":"11.jpg",
+            "title" : "Por mis pelotas",
+            "date" : "2022",
+            "contractor" : "Teatro en Fa",
+            "link" : "https://www.instagram.com/teatroenfa/",
+            "imgName":"10.jpg,11.jpg,12.jpg,13.jpg,14.jpg",
+            "videos":"",
+            "description": [
+                "Short football comedy play, where two friends discover new things about each other!<br>Role: Troncs.",
+                "Una corta comedia sobre una amistad entre dos futbolistas, los cuales descubrirán secretos que se han ocultado mutuamente. Rol: Troncs (la tronca).",
+                "Kurz Schauspiel witzig  von Fußball. <br>Rolle: Troncs."
+            ]
+        },
+        {
+            "thumbnail":"18.jpg",
+            "title" : "Muerte de un autor",
+            "date" : "2023",
+            "contractor" : "khamino La Salle Bajío",
+            "link" : "",
+            "imgName":"15.jpg,16.jpg,17.jpg,18.jpg",
+            "videos":"",
+            "description": [
+                "An original written play by Iliana Martínez de Alba. Dive into the mind of a writer who confronts the characters of it's stories.<br>Role: Mental chief.",
+                "Obra original escrita por Iliana Martínez de Alba. Sumergete en la mente de un escritor el cual tendrá que confrontar los personajes de sus historias. Rol: Jefe mental.",
+                "Dasrtellung geschrieben von Iliana Martínez de Alba. <br>Rolle: Mentaller chef."
+            ]
+        } 
+
+    ]
+}
