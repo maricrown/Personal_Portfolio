@@ -9,9 +9,9 @@
             "imgName":"1.png,2.png,3.png,4.png",
             "videos":"",
             "description": [
-                "Description.",
-                "Descripción.",
-                "Beschreibung."
+                "<br><p><b>Bite box</b> is a local entrepreneurship project that sells boxes with goods for dogs. Back in 2021 I got contacted to develop a series of logo options for them.</p><br><h3>Requirements</h3><ul><li>Incorporate a paw or dog snout.</li><li>Show the brand's name.</li><li>Incorporate purple and green in the logo.</li></ul>",
+                "<br><p><b>Bite box</b> es un emprendimiento local que vende cajas con productos para perros. En 2021 fui contactada para elaborar una serie de opciones para logos.</p><br><h3>Requerimientos</h3><ul><li>Incorporar una nariz o patita de perro.</li><li>Mostrar el nombre de la marca.</li><li>Hacer uso del color verde y morado.</li></ul>",
+                "<br><p><b>Bite Box</b> verkauft gegenstanden für Hunde. Ich entwarf das Logo.</p><br><h3>Voraussetzung</h3><ul><li>Schnauze oder pfote.</li><li>Marke name.</li><li>Grünt und violet.</li></ul>"
             ]
         },
         {
@@ -23,9 +23,9 @@
             "imgName":"5.png,6.png",
             "videos":"https://www.youtube.com/embed/thHlwAcx1xs?si=7hExF1a86cUrBYCZ,https://www.youtube.com/embed/WoKPo7rpJjc?si=p2LKEVaXbFjt_aOH",
             "description": [
-                "Description.",
-                "Descripción.",
-                "Beschreibung."
+                "<br><p><b>Baja SAE bajío</b> is an engineering workshop at my college which competes in the society of automobile engineers collegiate competition. In order to get enough sponsors and to fullfill the competition's requirements, they need to ellaborate multiple graphics like logos, promotional banners and reel videos for social media. I joined before graduating and made all the graphics they requested in the lapse of a semester.</p>",
+                "<br><p><b>Baja SAE bajío</b> es un taller de ingeniería automotriz el cual representa y compite en diversas carreras organizadas por SAE (society of automobile engineers). Para cumplir con los requisitos de la competencia y lograr obtener patrocionios es necesario para ellos elaborar promocionales, logos, posters, gráficos y contenido de redes sociales. Participé con ellos por 6 meses antes de graduarme, elaborando todos los gráficos requeridos en ese periodo.</p>",
+                "<br><p>Ich machte grafiken für die autowerkstatt universität.</p>"
             ]
         },
         {
@@ -37,9 +37,9 @@
             "imgName":"8.png,9.png,10.png",
             "videos":"https://www.behance.net/embed/project/202725881?ilo0=1",
             "description": [
-                "Description.",
-                "Descripción.",
-                "Beschreibung."
+                "<br><p><b>Corazón florido</b> is a local holistic beauty center and coffee shop.</p><br><h3>Requirements</h3><ul><li>Include the brand's name.</li><li>Include a heart.</li><li>Include some plant element.</li></ul>",
+                "<br><p><b>Corazón florido</b> es un centro local de belleza holística y una cafetería.</p><br><h3>Requerimientos</h3><ul><li>Incluir el nombre de la marca.</li><li>Incluir una figura de un corazón.</li><li>Incluir algún elemento que represent una planta.</li></ul>",
+                "<br><p><b>Corazón florido</b> ist eine local kaffee.</p><br><h3>Voraussetzung</h3><ul><li>Marke name.</li><li>Schatz grafik.</li><li>Pflanze grafik.</li></ul>"
             ]
         },
         {
@@ -49,11 +49,11 @@
             "contractor" : "maricrown",
             "link" : "https://maricrown.com/",
             "imgName":"0.jpg,11.png,12.png,13.gif",
-            "videos":"https://www.behance.net/embed/project/202725881?ilo0=1",
+            "videos":"https://www.behance.net/embed/project/202732369?ilo0=1",
             "description": [
-                "Description.",
-                "Descripción.",
-                "Beschreibung."
+                "<br><p>My own personal logo. <b>I am Maricrown</b> and I am a freelance designer, I decided to brand myself.</p><br><h3>Requirements</h3><ul><li>Use the letter 'M'.</li><li>Incorporate a crown.</li><li>Make an elegant and modern design.</li></ul>",
+                "<br><p>Mi logo personal. <b>Yo soy Maricrown</b> y soy diseñadora freelance, decidí hacerme una marca personal.</p><br><h3>Requerimientos</h3><ul><li>Usar la letra 'M'.</li><li>Icorporar una corona en el diseño.</li><li>Diseño elegante y moderno.</li></ul>",
+                "<br><p>Mein personal logo, <b>ich bin Maricrown</b> und ich machte meine logo.</p><br><h3>Voraussetzung</h3><ul><li>'M' buchstabe verwenden.</li><li>Krone grafik.</li><li>Elegant und modern.</li></ul>"
             ]
         }
 
@@ -128,17 +128,17 @@
     ],
     "programming":[
         {
-            "thumbnail" : "1.jpg",
-            "title" : "Project title",
+            "thumbnail" : "2.png",
+            "title" : "Weather app",
             "date" : "2024",
-            "contractor" : "Language sample",
-            "link" : "https://github.com/maricrown/desarrollo_flutter",
-            "imgName":"1.jpg",
-            "videos":"",
+            "contractor" : "HTML, CSS, JS",
+            "link" : "https://maricrown.github.io/JS_Projects/weatherApp/",
+            "imgName":"2.png,3.png,4.png",
+            "videos":"https://www.youtube.com/embed/-D50-dgK2xY?si=o_RRdZOOIH2vgt_Z",
             "description":[
-                "Description.",
-                "Descripción.",
-                "Beschreibung."
+                "<h3>Weather app</h3><p>Web app that tells you the weather at your location or any other location you might search for. This app was built using html, css, js, google fonts and incorporates the use of 2 free APIs: <a href='https://nominatim.openstreetmap.org/'>Nominatim's open street map</a> & <a href='https://open-meteo.com/en/docs?ref=freepublicapis.com'>Open meteo</a>.</p><br><h3>Features</h3><ul><li>Working search box</li><li>Background changes if it's day or night time.</li><li>Weather icon changes depending on the weather.</li><li>Shows a short weather feel description.</li><li>Shows precipitation probability.</li></ul>",
+                "<h3>App de clima</h3><p>Web app que te muestra datos sobre el clima en tu ubicación o cualquier otro lugar que quieras buscar. Esta app fue construida utilizando html, css, js, google fonts e incorpora 2 APIs gratuitas: <a href='https://nominatim.openstreetmap.org/'>Nominatim's open street map</a> y <a href='https://open-meteo.com/en/docs?ref=freepublicapis.com'>Open meteo</a>.</p><br><h3>Características</h3><ul><li>Caja de búsqueda.</li><li>Cambio de fondo dependiendo de si es de noche o de día.</li><li>Cambio dinámico de iconos dependiendo del clima.</li><li>Breve descripción textual del clima.</li><li>Probabilidad de precipitación.</li></ul>",
+                "<h3>Wetter app</h3><p>Was ist deine wetter im deine stelle? Es ist schlecht oder super? Entdecken es sie mit meine wetter app. Ich habe die app mit html, css, js, google fonts und zwei frei APIs entwickelt: <a href='https://nominatim.openstreetmap.org/'>Nominatim's open street map</a> und <a href='https://open-meteo.com/en/docs?ref=freepublicapis.com'>Open meteo</a>.</p><br><h3>Merkmalen</h3><ul><li>Kasten für suchen.</li><li>Farbe veränderung.</li><li>icon und farbe, veränderung dynamische.</li><li>Klein wetter beschreibung.</li><li>Niederschlag %.</li></ul>"
             ]
         }
     ],
@@ -150,11 +150,11 @@
             "contractor" : "khamino La Salle Bajío",
             "link" : "https://www.fenal.mx/artisticprogram/detail/75",
             "imgName":"1.jpg,2.jpg,3.jpg,4.jpg,5.jpg",
-            "videos":"",
+            "videos":"https://www.youtube.com/embed/A819J-28mYk?si=MubCOVhGGaOxo-dJ,https://www.youtube.com/embed/9DeUhawra1c?si=flZElrrRgaAV8Jk0",
             "description": [
-                "Creative adaptation of Tennessee William's classic 'The glass menagerie', focusing on the failed relationship between the protagonist and the antagonist.<br>Role: Laura Wingfield.",
-                "Adaptación a una pieza del clásico de Tennessee William centrando el ejercicio escénico en la fallida relación de la protagonista y el antagonista. <br>Rol: Laura Wingfield.",
-                "'Der Glasmenagerie' von Tennessee William, darstellung.<br>Rolle: Laura Wingfield."
+                "<br>Creative adaptation of Tennessee William's classic 'The glass menagerie', focusing on the failed relationship between the protagonist and the antagonist.<br><b>Role: Laura Wingfield.</b>",
+                "<br>Adaptación a una pieza del clásico de Tennessee William centrando el ejercicio escénico en la fallida relación de la protagonista y el antagonista. <br><b>Rol: Laura Wingfield.</b>",
+                "<br><b>'Der Glasmenagerie'</b> von Tennessee William, darstellung.<br><b>Rolle: Laura Wingfield.</b>"
             ]
         },
         {
@@ -164,11 +164,11 @@
             "contractor" : "khamino La Salle Bajío",
             "link" : "",
             "imgName":"6.jpg,7.jpg,8.jpg,9.jpg",
-            "videos":"",
+            "videos":"https://www.youtube.com/embed/wUv-TInWnVg?si=rssmK0ye0Xat8YZB",
             "description": [
-                "Creative adaptation of 'Grease' the musical.<br>Role: Marty.",
-                "Adaptación creativa del músical de 'Grease' también conocido como 'Vaselina'.<br>Rol: Marty.",
-                "'Grease' musikfilm darstellung.<br>Rolle: Marty."
+                "<br>Creative adaptation of 'Grease' the musical.<br><b>Role: Marty.</b>",
+                "<br>Adaptación creativa del músical de 'Grease' también conocido como 'Vaselina'.<br><b>Rol: Marty.</b>",
+                "<br><b>'Grease'</b> musikfilm darstellung.<br><b>Rolle: Marty.</b>"
             ]
         },
         {
@@ -178,11 +178,11 @@
             "contractor" : "Teatro en Fa",
             "link" : "https://www.instagram.com/teatroenfa/",
             "imgName":"10.jpg,11.jpg,12.jpg,13.jpg,14.jpg",
-            "videos":"",
+            "videos":"https://www.youtube.com/embed/5ezYAsPY5Jg?si=-PQdOksfGmjIZT_Y",
             "description": [
-                "Short football comedy play, where two friends discover new things about each other!<br>Role: Troncs.",
-                "Una corta comedia sobre una amistad entre dos futbolistas, los cuales descubrirán secretos que se han ocultado mutuamente. Rol: Troncs (la tronca).",
-                "Kurz Schauspiel witzig  von Fußball. <br>Rolle: Troncs."
+                "<br>Short football comedy play, where two friends discover new things about each other!<br><b>Role: Troncs.</b>",
+                "<br>Una corta comedia sobre una amistad entre dos futbolistas, los cuales descubrirán secretos que se han ocultado mutuamente. <br><b>Rol: Troncs (la tronca).</b>",
+                "<br>Kurz Schauspiel witzig  von Fußball. <br><b>Rolle: Troncs.</b>"
             ]
         },
         {
@@ -192,11 +192,11 @@
             "contractor" : "khamino La Salle Bajío",
             "link" : "",
             "imgName":"15.jpg,16.jpg,17.jpg,18.jpg",
-            "videos":"",
+            "videos":"https://www.youtube.com/embed/SUnUiEEXfFs?si=GE7gAe9V-H0ugDS5",
             "description": [
-                "An original written play by Iliana Martínez de Alba. Dive into the mind of a writer who confronts the characters of it's stories.<br>Role: Mental chief.",
-                "Obra original escrita por Iliana Martínez de Alba. Sumergete en la mente de un escritor el cual tendrá que confrontar los personajes de sus historias. Rol: Jefe mental.",
-                "Dasrtellung geschrieben von Iliana Martínez de Alba. <br>Rolle: Mentaller chef."
+                "<br>An original written play by Iliana Martínez de Alba. Dive into the mind of a writer who confronts the characters of it's stories.<br><b>Role: Mental chief.</b>",
+                "<br>Obra original escrita por Iliana Martínez de Alba. Sumergete en la mente de un escritor el cual tendrá que confrontar los personajes de sus historias.<br><b>Rol: Jefe mental.</b>",
+                "<br>Dasrtellung geschrieben von Iliana Martínez de Alba. <br><b>Rolle: Mentaller chef.</b>"
             ]
         } 
 

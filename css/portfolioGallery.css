@@ -296,7 +296,7 @@ nav a:hover{
 .polaroidContent .description{
     height: 100%;
     margin-inline: 4rem;
-    padding-block: 2rem;
+    padding-bottom: 2rem;
     text-align: left;
     overflow-y: scroll;
 }
@@ -321,6 +321,16 @@ nav a:hover{
     color: #de9a34;
 }
 
+ul{
+    margin-left: .5rem; 
+    padding:0; 
+    list-style-position: inside;
+    list-style-type: square;
+    font-size: 13px;
+}
+ul li{
+    margin-bottom: 5px;
+}
 
 @media(max-width: 1000px){
     .polaroidData{

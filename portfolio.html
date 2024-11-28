@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="./favicon.svg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="translatable"></title>
+    <link rel="stylesheet" href="./css/portfolioGallery.css">
+    <link rel="stylesheet" href="./css/noiseOverlay.css">
+</head>
+<body>
+    <div class="selectedPortfolio">
+        <div class="translatable">PORTFOLIO-></div>
+        <a href="" id="design" class="translatable" onclick="localStorage.setItem('currentPortfolio','design')">Design</a>
+        <a href="" id="illustration" class="translatable" onclick="localStorage.setItem('currentPortfolio','illustration')">Illustration</a>
+        <a href="" id="modeling" class="translatable" onclick="localStorage.setItem('currentPortfolio','modeling')">Modeling</a>
+        <a href="" id="programming" class="translatable" onclick="localStorage.setItem('currentPortfolio','programming')">Programming</a>
+        <a href="" id="theater" class="translatable" onclick="localStorage.setItem('currentPortfolio','theater')">Theater</a>
+    </div>
+    <div class="noiseOverlay"></div>
+    <input type="checkbox" id="polaroidDataActive"/>
+    
+    
+    <div class="content">
+        <nav>
+            <a  href="../index.html" style="margin: 0; margin-right: auto;">
+                <svg class="returnArrow" xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#e8eaed"><path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/></svg>
+            </a>
+            <abbr title="Return to main page" style="text-decoration: none;">
+                <a href="../index.html" tool>
+                    MARICROWN
+                    <svg class="home-link" width="60" height="60" viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg"  fill="#ffffff">
+                        <path d="m 271.32834,611.82483 67.06336,37.33589 V 565.1394 l -16.94839,-9.78516 v -95.27702 l 116.43841,67.22575 94.57549,-94.57549 96.50032,96.50032 120.286,-69.44716 v 97.59388 L 350.22107,787.75025 398.72576,836.25494 797.00577,606.30786 V 366.60232 L 639.60169,457.47961 533.06877,350.94668 423.59073,460.42471 271.36391,372.53651 Z" />
+                        <path d="M 392.67901,755.38923 V 507.85714 l -45.28132,-26.14318 10e-4,299.81535 z" />
+                        <path d="m 457.61418,716.2532 68.80445,-39.72427 -124.31592,-71.77383 -0.0201,80.47927 z" />
+                        <path d="m 606.48263,723.93304 60.06021,32.54526 v 81.79679 L 537.47095,763.76013 Z" />
+                        <path d="M 675.90569,836.67369 V 684.47936 l 44.02952,-25.42045 v 133.24383 z" />
+                        <path d="m 720.5,483 -45.04511,26.0068 V 592 l 45.02662,-25.99613 z" />
+                        <path d="m 675.75,428 45.02179,-25.99335 V 307.75 L 619.88589,206.8641 532.875,293.875 446,207 346,307 v 98.75 l 44.76282,25.84382 V 334.25 L 439.75641,285.25641 514,359.5 l 18.75,-18.75 19.625,19.625 75.75,-75.75 L 675.5,332 Z" />
+                    </svg>
+                </a>
+            </abbr>
+        </nav>
+        <div id="galleryContainer" style="height: 100vh; overflow: hidden;">
+            <div id="classicGallery" class="classicGallery">        
+            </div>
+
+            <div id="polaroidGallery" class="polaroidGallery">
+                <label class="polaroid " onclick="loadPolaroidData(this)" title="Polaroid title example" date="sampledate" contractor="companyorclient" link="https://www.facebook.com/" description="polaroid description attribute" imgNames="1.jpg,2.jpg,3.jpg,4.jpg">
+                    <div class="polaroidImg"></div>
+                    <h3>polaroid title</h3>
+                    <h4>01/01/2001</h4>
+                </label>
+            </div>
+        </div>
+    </div>
+    
+    <label for="polaroidDataActive" class="polaroidData">
+        <div class="polaroidCarrousel" onclick="event.preventDefault();">
+            <div class="go left" onclick="setSelectedCarrouselPicIndex(-1)">
+                &lt;
+            </div>
+            <div class="go right" onclick="setSelectedCarrouselPicIndex(1)">
+                &gt;
+            </div>
+            <div id="polaroidDataCarrousel" class="img">
+               
+            </div>
+        </div>
+
+        <div class="polaroidContent" onclick="event.preventDefault();">
+            <div style="background-color: black;">
+                <div class="title">
+                    <h3 id="polaroidDataTitle"></h3>
+                    <h3 class="closePolaroidDatabutton" onclick="togglePolaroidData()">X</h3>
+                </div>
+                <div id="polaroidDataSubtitle" class="subtitle">
+                    00/00/0000 | DV performing arts | link
+                </div>
+            </div>
+            <div id="polaroidDataDescription" class="description">
+                Event description goes here!
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/8eFeIFKAKHw?si=_dkaDDEfqOSY3vrb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </label>
+
+    
+</body>
+
+<script type="text/javascript">
+    const availableLanguages = ["en","es","de"];
+    const polaroidActive = document.getElementById("polaroidDataActive");
+    const polaroidDataCarrousel = document.getElementById("polaroidDataCarrousel");
+    const polaroidGallery = document.getElementById("polaroidGallery");
+    const classicGallery = document.getElementById("classicGallery");
+    const translatableElements = document.querySelectorAll(".translatable");
+    
+    let languageIndex = 0;
+    if(localStorage.getItem("languageIndex")){
+        languageIndex = localStorage.getItem("languageIndex");
+    }
+    
+    var currentPortfolio = "theater";
+    if(localStorage.getItem("currentPortfolio")){
+        currentPortfolio = localStorage.getItem("currentPortfolio");
+    }
+    
+    var carrouselImgs = [];
+    let selectedCarrouselPic = 0;
+    document.title = "Maricrown | "+ capitalize(currentPortfolio);
+
+    translatableElements.forEach((element)=>{
+        if(element.id.includes(currentPortfolio)){
+            element.classList.add("selected");
+        }
+    });
+
+    if(currentPortfolio.includes('illustration') || currentPortfolio.includes('modeling')){
+        document.getElementById('galleryContainer').style.height="100vh";
+        loadClassicGallery();
+    }else{
+        document.getElementById('galleryContainer').style.height="";
+        loadPolaroids();
+    }
+
+    
+
+    function capitalize(val) {
+        return String(val).charAt(0).toUpperCase() + String(val).slice(1);
+    }
+
+    function loadClassicGallery(){
+        console.log(currentPortfolio);
+        var html="";
+        fetch("../data/portfolioData.json")
+        .then(response => response.json())
+        .then(data => {
+            data[currentPortfolio].forEach(element => {
+                html +=  '<div class="image '+element.sizeClass+'">'
+                    +'<div class="imageItem">'
+                    +'<div class="imageContainer">'
+                    +'<img src="../assets/images/portfolio/'+currentPortfolio+'/'+element.imgName+'"  onclick="window.open(this.src, \'_blank\');"/>'
+                    +'</div></div></div>';
+            });
+            console.log(html);
+            console.log(classicGallery);
+            classicGallery.innerHTML = html;
+        });
+    }
+
+    function loadPolaroids(){
+        var html = "";
+        
+        fetch("../data/portfolioData.json")
+        .then(response => response.json())
+        .then(data => {
+            data[currentPortfolio].forEach(element => {
+
+                html += '<label class="polaroid " onclick="loadPolaroidData(this)" '
+                +'title="'+element.title+'" '
+                +'date="'+element.date+'" '
+                +'contractor="'+element.contractor+'" '
+                +'link="'+element.link+'" '
+                +'videos="'+element.videos+'"'
+                +'description="'+element.description[languageIndex]+'" '
+                +'imgNames="'+element.imgName+'">'
+                +'<div class="polaroidImg"'
+                +'style="background-image: url(\'../assets/images/portfolio/'+currentPortfolio+'/'+element.thumbnail+'\')"></div>'
+                +'<h3>'+element.title+'</h3>'
+                +'<h4>'+element.date+'</h4>'
+                +'</label>';                
+            });
+            polaroidGallery.innerHTML = html;
+        });
+    }
+
+    function loadPolaroidData(caller){
+        selectedCarrouselPic = 0;
+        carrouselImgs = caller.getAttribute("imgNames").split(",");
+        changeCarrouselPic(carrouselImgs[selectedCarrouselPic]);
+        var iframes = "";
+        
+        var subtitle = "";
+        if(caller.getAttribute("date")){
+            subtitle += caller.getAttribute("date");
+        }
+        if(caller.getAttribute("contractor")){
+            subtitle += " - "+ caller.getAttribute("contractor");
+        }
+        if(caller.getAttribute("link")!=""){
+            subtitle += '<svg xmlns="http://www.w3.org/2000/svg" height="15px" viewBox="0 -960 960 960" width="15px" fill="#e8eaed" onclick="navigateTo(\''+caller.getAttribute("link")+'\')"><path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h560v-280h80v280q0 33-23.5 56.5T760-120H200Zm188-212-56-56 372-372H560v-80h280v280h-80v-144L388-332Z"/></svg></a>';
+        }
+        if(caller.getAttribute("videos")!=""){
+            var videoUrls = caller.getAttribute("videos").split(",");
+            videoUrls.forEach((url) => {
+                iframes += '<br><iframe src="' + url + ' referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+            });
+        }
+        document.getElementById('polaroidDataTitle').innerHTML = caller.title;
+        document.getElementById('polaroidDataSubtitle').innerHTML = subtitle;
+        document.getElementById('polaroidDataDescription').innerHTML = iframes+caller.getAttribute('description');
+        togglePolaroidData();
+
+    }
+
+    function setSelectedCarrouselPicIndex(modifier){
+        selectedCarrouselPic += modifier;
+        if(selectedCarrouselPic < 0){
+            selectedCarrouselPic = (carrouselImgs.length-1);
+        }
+        if(selectedCarrouselPic == carrouselImgs.length){
+            selectedCarrouselPic = 0;
+        }
+        changeCarrouselPic(carrouselImgs[selectedCarrouselPic]);
+    }
+
+    function changeCarrouselPic(name){
+        polaroidDataCarrousel.style.backgroundImage = "url('../assets/images/portfolio/"+currentPortfolio+"/"+name+"')";
+    }
+
+    function navigateTo(URL){
+        window.open(URL, '_blank');
+    }
+
+    function togglePolaroidData(){
+        polaroidActive.checked = !polaroidActive.checked;
+    }
+</script>
+</html>
