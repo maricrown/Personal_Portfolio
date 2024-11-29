@@ -303,7 +303,7 @@ nav a:hover{
     fill: #de9a34;
 }
 .polaroidContent .description{
-    height: 100%;
+    height: fit-content;
     margin-inline: 4rem;
     padding-bottom: 2rem;
     text-align: left;
@@ -356,7 +356,7 @@ ul li{
     }
     .polaroidContent{
         width: 100%;
-        min-height: 100vh;
+        height: fit-content;
         margin-inline: 0;
     }
 }
@@ -366,7 +366,7 @@ ul li{
         margin-inline: 2rem;
     }
     .polaroidContent{
-        min-height: 80vh;
+        min-height: fit-content;
         margin-bottom: 5rem;
     }
     .selectedPortfolio{
@@ -598,7 +598,7 @@ ul li{
     const polaroidGallery = document.getElementById("polaroidGallery");
     const classicGallery = document.getElementById("classicGallery");
     const translatableElements = document.querySelectorAll(".translatable");
-    
+
     let languageIndex = 0;
     if(localStorage.getItem("languageIndex")){
         languageIndex = localStorage.getItem("languageIndex");
@@ -725,6 +725,19 @@ ul li{
 
     function togglePolaroidData(){
         polaroidActive.checked = !polaroidActive.checked;
+        if(!polaroidActive.checked){
+            window.location.reload();
+        }
     }
+
+    window.history.pushState(null, '', window.location.href); // Add a new state to history
+    window.onpopstate = function () {
+        if (polaroidActive.checked) {
+            window.location.reload();
+        }else{
+            window.href = "./index.html";
+        }
+    };
+
 </script>
 </html>

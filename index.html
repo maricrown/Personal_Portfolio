@@ -1007,20 +1007,33 @@ footer h3{
     position: absolute;
     bottom: 0;
     left: 0;
+    display: flex;
     background-color: #de9a34;
     color: white;
     border-radius: 10px;
     border-style: none;
     margin: 2rem;
-    padding: .5rem;
+    padding: .8rem;
     text-transform: uppercase;
-    font-size: 10px;
+    font-size: 15px;
     transition: all .2s;
     box-shadow: 2px 2px 8px #00000037;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+#toggleLanguage .language{
+    float: right;
+    margin-left: 5px;
 }
 
 #toggleLanguage:hover{
     margin-bottom: 2.1rem;
+    background-color: #de8334;
 
 }
 
@@ -1222,16 +1235,18 @@ footer h3{
             <a id="footerSitemapContactMe" href="#contactMe" class="translates"></a>
             <br>
             <h3 id="footerSitemapPortfoliosTitle" class="translates"></h3>
-            <a id="footerSitemapPortfolioDesign" href="./portfolio.html" onclick="localStorage.setItem('currentPortfolio','illustration')" class="translates"></a>
+            <a id="footerSitemapPortfolioDesign" href="./portfolio.html" onclick="localStorage.setItem('currentPortfolio','design')" class="translates"></a>
             <a id="footerSitemapPortfolioIllustration" href="./portfolio.html" onclick="localStorage.setItem('currentPortfolio','illustration')" class="translates"></a>
-            <a id="footerSitemapPortfolioModeling" href="./portfolio.html" onclick="localStorage.setItem('currentPortfolio','illustration')" class="translates"></a>
-            <a id="footerSitemapPortfolioProgramming" href="./portfolio.html" onclick="localStorage.setItem('currentPortfolio','illustration')" class="translates"></a>
-            <a id="footerSitemapPortfolioTheater" href="./portfolio.html" onclick="localStorage.setItem('currentPortfolio','illustration')" class="translates"></a>
+            <a id="footerSitemapPortfolioModeling" href="./portfolio.html" onclick="localStorage.setItem('currentPortfolio','modeling')" class="translates"></a>
+            <a id="footerSitemapPortfolioProgramming" href="./portfolio.html" onclick="localStorage.setItem('currentPortfolio','programming')" class="translates"></a>
+            <a id="footerSitemapPortfolioTheater" href="./portfolio.html" onclick="localStorage.setItem('currentPortfolio','theater')" class="translates"></a>
           </div>
         </footer>
     </div>
     
-    <button id="toggleLanguage" onclick="changeLanguageOnClick(this)" value="en">en</button>
+    <button id="toggleLanguage" onclick="changeLanguageOnClick(this)" value="en">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m476-80 182-480h84L924-80h-84l-43-122H603L560-80h-84ZM160-200l-56-56 202-202q-35-35-63.5-80T190-640h84q20 39 40 68t48 58q33-33 68.5-92.5T484-720H40v-80h280v-80h80v80h280v80H564q-21 72-63 148t-83 116l96 98-30 82-122-125-202 201Zm468-72h144l-72-204-72 204Z"/></svg>
+        English</button>
 
     <div class="noiseOverlay"></div>
 </body>
