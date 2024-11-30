@@ -165,7 +165,6 @@ let selectedLanguage = 0;
 if(localStorage.getItem("languageIndex")){
   selectedLanguage = localStorage.getItem("languageIndex");
   document.getElementById("toggleLanguage").value = availableLanguages[selectedLanguage];
-  setLanguageButtonStyle(document.getElementById("toggleLanguage"));
 }
 
 const translatableContent = document.querySelectorAll(".translates");
@@ -185,6 +184,7 @@ function initWebPage(){
 
   //Load default language
   setLanguage(availableLanguages[selectedLanguage]);
+  setLanguageButtonStyle(document.getElementById("toggleLanguage"));
 }  
   
 //=========LANGUAGE HANDLING============= 
@@ -233,8 +233,7 @@ function setLanguageButtonStyle(btn){
       fullLanguageName = "Deutsch";
       break;
   }
-  btn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#e8eaed"><path d="m476-80 182-480h84L924-80h-84l-43-122H603L560-80h-84ZM160-200l-56-56 202-202q-35-35-63.5-80T190-640h84q20 39 40 68t48 58q33-33 68.5-92.5T484-720H40v-80h280v-80h80v80h280v80H564q-21 72-63 148t-83 116l96 98-30 82-122-125-202 201Zm468-72h144l-72-204-72 204Z"/></svg> <div class="language">'+ fullLanguageName+"</div>";
-  
+  btn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#e8eaed"><path d="m476-80 182-480h84L924-80h-84l-43-122H603L560-80h-84ZM160-200l-56-56 202-202q-35-35-63.5-80T190-640h84q20 39 40 68t48 58q33-33 68.5-92.5T484-720H40v-80h280v-80h80v80h280v80H564q-21 72-63 148t-83 116l96 98-30 82-122-125-202 201Zm468-72h144l-72-204-72 204Z"/></svg> <div class="fullLanguage">'+ fullLanguageName+"</div>";
 }
 //=========EXPERIENCE SECTION TIMELINE SETUP===========
 
@@ -304,3 +303,10 @@ function setTimeLinePosition(){
   let left= dotBounds.left;
   line.style.left = left+9+"px";
 }
+/*==============IF USER IS BROWSING ON SAFARI========================*/
+function isSafariNavigator() {
+  if (navigator.userAgent.indexOf('Safari') != -1 && 
+      navigator.userAgent.indexOf('Chrome') == -1) {
+          document.getElementById('noiseOverlay').style.visibility = false;
+      }
+  };

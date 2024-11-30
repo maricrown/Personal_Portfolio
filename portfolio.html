@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" translate="no">
 <head>
     <link rel="icon" href="./favicon.svg">
     <meta charset="UTF-8">
@@ -11,7 +11,7 @@
 :root{
     --color-1: black;
     --text-color: wheat;
-    --accent-color: #de9a34;
+    --accent-color: #d17e25;
 }
 *{
     margin: 0;
@@ -36,7 +36,10 @@ body{
     justify-content: center;
     align-content: center;
 }
+a{
+    color: var(--accent-color);
 
+}
 .classicGallery{
     padding-top: 5rem;
     padding-inline: 20rem;
@@ -212,7 +215,7 @@ nav a:hover{
     overflow: hidden;
 }
 .polaroidCarrousel .img{
-    color: white;
+    color: wheat;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -225,7 +228,7 @@ nav a:hover{
     align-items: center;
 }
 .polaroidCarrousel .go{
-    color: white;
+    color: wheat;
     font-size: 40px;
     position: absolute;
     opacity: .7;
@@ -331,6 +334,7 @@ nav a:hover{
 }
 
 ul{
+    margin-bottom: 1.5rem;
     margin-left: .5rem; 
     padding:0; 
     list-style-position: inside;
@@ -465,7 +469,7 @@ ul li{
 .selectedPortfolio{
     position: absolute;
     border-radius: 10px;
-    color: white;
+    color: wheat;
     margin: 1rem;
     padding: 1rem;
     width: fit-content;
@@ -481,7 +485,7 @@ ul li{
 
 
 .selectedPortfolio a{
-    color: white;
+    color: wheat;
     letter-spacing: 2px;
     font-size: 10px;
     text-decoration: none;
@@ -491,7 +495,7 @@ ul li{
 }
 
 .selectedPortfolio a:hover{
-    color: white;
+    color: wheat;
     letter-spacing: 2px;
     font-size: 10px;
     text-decoration: none;
@@ -508,6 +512,24 @@ ul li{
     text-decoration:line-through;
     opacity: 1;
 
+}
+
+.liveDemo {
+    cursor: pointer;
+    text-decoration: none;
+    color: wheat;
+    margin-right: .5rem;
+    text-transform: uppercase;
+    width: fit-content;
+    background-color: black;
+    padding: .3rem;
+    font-size: 12px;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.liveDemo:hover{
+    background-color: rgb(68, 59, 59);
 }
     </style>
 </head>
@@ -689,7 +711,7 @@ ul li{
             subtitle += " - "+ caller.getAttribute("contractor");
         }
         if(caller.getAttribute("link")!=""){
-            subtitle += '<svg xmlns="http://www.w3.org/2000/svg" height="15px" viewBox="0 -960 960 960" width="15px" fill="#e8eaed" onclick="navigateTo(\''+caller.getAttribute("link")+'\')"><path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h560v-280h80v280q0 33-23.5 56.5T760-120H200Zm188-212-56-56 372-372H560v-80h280v280h-80v-144L388-332Z"/></svg></a>';
+            subtitle += '<svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#e8eaed" onclick="navigateTo(\''+caller.getAttribute("link")+'\')"><path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h560v-280h80v280q0 33-23.5 56.5T760-120H200Zm188-212-56-56 372-372H560v-80h280v280h-80v-144L388-332Z"/></svg></a>';
         }
         if(caller.getAttribute("videos")!=""){
             var videoUrls = caller.getAttribute("videos").split(",");
@@ -722,6 +744,10 @@ ul li{
     function navigateTo(URL){
         window.open(URL, '_blank');
     }
+
+    polaroidActive.addEventListener('change',function(){
+        window.location.reload();
+    });
 
     function togglePolaroidData(){
         polaroidActive.checked = !polaroidActive.checked;
